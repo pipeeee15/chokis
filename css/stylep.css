@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+main {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: rgb(189, 28, 28);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.cuadros {
+    margin: 20px 0;
+}
+
+.cuadros input[type="text"], .cuadros input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.cuadros input[type="submit"] {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cuadros input[type="submit"]:hover {
+    background-color: rgb(110, 5, 5);
+}
+
+footer {
+    background-color: rgb(189, 28, 28);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+footer span {
+    font-size: 14px;
+}
